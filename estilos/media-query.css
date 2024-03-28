@@ -7,7 +7,7 @@
 section#login {
     
     width: 80vw;
-    height: 60vh;
+    height: 55vh;
 }
     section#login > div#imagem {
         
@@ -23,6 +23,15 @@ section#login {
         width: 50%;
         
     }
+    div.campo > i{
+        
+
+    color: white;
+    margin-left: 3px;
+    margin-right: 3.5px;
+    
+}
+
 }
     
 
@@ -30,7 +39,7 @@ section#login {
     section#login {
        
         width: 950px;
-        height: 60vh;
+        height: 325px;
     }
 
     section#login > div#imagem{
@@ -43,6 +52,27 @@ section#login {
         float: left;
         width: 50%;
         
+    }
+    div.campo > i{
+        
+
+        color: white;
+        margin-left: px;
+        margin-right: 10px;
+        
+    }
+
+    div.campo > input{
+        background-color: white;
+       font-size: 1em;
+       height: 30px;
+       border-top-right-radius: 8px;
+       border-bottom-right-radius: 8px;
+       margin: 0px;
+       
+       height: 36px;
+       width: 90%;
+    
     }
 
     div#formulario > h1{

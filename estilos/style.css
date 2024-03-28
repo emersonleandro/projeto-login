@@ -31,7 +31,7 @@ section#login{
     transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
-    height: 460px;
+    height: 480px;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.433);
@@ -74,13 +74,40 @@ form > div.campo{
     background-color: #2d6462;
    text-align: center;
     border-radius: 8px;
-    padding-bottom: 30px;
+    
+    padding-bottom: 35px;
     margin: 8px 0px;
     height: 30px;
     border: 2px solid black;
 
 }
 
+div.campo > label {
+    display: none;
+}
+
+div.campo > i{
+
+    color: white;
+    margin-left: -5px;
+    margin-top: px;
+    padding-left:10px;
+    
+    
+}
+
+div.campo > input{
+    background-color: white;
+   font-size: 1em;
+   height: 30px;
+   border-top-right-radius: 8px;
+   border-bottom-right-radius: 8px;
+   margin: 0px;
+   
+   height: 36px;
+   width: 85%;
+
+}
 
 form > input[type=submit] {
     margin-top: 8px;

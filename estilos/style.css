@@ -150,3 +150,8 @@ form > a.botao > i {
 form > a.botao:hover{
     background-color: #2d6462;
 }
+div#formulario > p{
+    font-size: 1.2em;
+    text-align: justify;
+    margin-bottom: 20px;
+}

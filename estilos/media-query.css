@@ -7,10 +7,12 @@
 section#login {
     
     width: 80vw;
+    height: 60vh;
 }
     section#login > div#imagem {
         
-        width: 30%;
+        float: left;
+        width: 45%;
         height: 100%;
         background-position: center left;
         border-right: 2px solid rgba(0, 0, 0, 0.784);
@@ -18,7 +20,7 @@ section#login {
 
     section#login > div#formulario {
         float: right;
-        width: 70%;
+        width: 50%;
         
     }
     
@@ -27,10 +29,10 @@ section#login {
     section#login {
         float: left;
         width: 940px;
-        height: 100%;
+        height: 60vh;
     }
     section#login > div#formulario{
-        float: right;
-        width: 50%;
+        float: left;
+        
     }
 }
